@@ -41,7 +41,7 @@ const rhinofiConfig = {
   const rhinofi = await RhinofiClientFactory(web3, rhinofiConfig)
 
   const token = 'ETH'
-  const amount = 0.1
+  const amount = 0.01
 
   // NOTE: withdraw method as been deprecated
   const withdrawalResponse = await rhinofi.transferAndWithdraw({
